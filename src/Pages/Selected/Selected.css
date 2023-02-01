@@ -1,0 +1,96 @@
+﻿.box-of-tnx{
+    display: flex;
+    justify-content: center;
+}
+
+.Next-Rectangle{
+    width: 412px;
+    height: 416px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+}
+
+.thank-you-img{
+    width: 162px;
+    height: 108px;
+    background: url("../../../public/Images/illustration-thank-you.svg");
+    margin-top: 50px;
+}
+
+.box-of-number, .box-of-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.box-of-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.box-of-selected{
+    width: 193px;
+    height: 32px;
+    border-radius: 22.5px;
+    background-color: #262E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-of-selected{
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FC7614;
+}
+
+.tnx-header-text{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.tnx-text{
+    width: 340px;
+    height: 72px;
+    font-family: 'Overpass';
+    font-size: 15px;
+    line-height: 24px;
+    color: #969FAD;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .Next-Rectangle{
+        width: 327px;
+        height: 360px;
+        border-radius: 15px;
+    }
+
+    .thank-you-img{
+        margin-top: 30px;
+    }
+    
+    .box-of-header{
+        margin-top: 20px;
+    }
+    
+    .text-of-selected{
+        font-size: 14px;
+    }
+
+    .tnx-header-text{
+        font-size: 24px;
+    }
+
+    .tnx-text{
+        width: 280px;
+        height: 66px;
+    }
+}

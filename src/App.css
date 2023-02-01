@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Overpass';
+  src: url('./fonts/Nunito-VariableFont_wght.ttf');
+}
+
+.App {
+  background: #131518;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

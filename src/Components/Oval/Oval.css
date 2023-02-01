@@ -1,0 +1,43 @@
+.Page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #262E38;
+    width: 51px;
+    height: 51px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.Oval-buttons{
+    display: flex;
+    font-family: 'Overpass';
+    font-weight: 700;
+    color: #7C8798;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    margin-left: 35px;
+    margin-top: 23px;
+    gap: 22px;
+}
+
+.Page:hover{
+    background-color: #FC7614;
+    color:#FFFFFF;
+}
+
+.Page.active{
+    background-color: #7C8798;
+    color:#FFFFFF;
+}
+
+@media only screen and (max-width: 600px) {
+    .Page{
+        width: 40px;
+        height: 40px;
+    }
+
+    .Oval-buttons{
+        margin-left: 20px;
+    }
+}
